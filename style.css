@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding:  0;
+  background-color: #515553;
+}
+
+#grid {
+  width: 500px;
+  height: 500px;
+  border: #222 solid 2px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(30, auto);
+  grid-template-rows: repeat(30, auto);
+}
+
+/*#grid .one {
+  grid-row: 1 / 31;
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+  background-color: #ccc;
+}*/
+#grid span {
+  background-color: #ccc;
+}
+
+#grid span.hide {
+  background-color: transparent;
+}
+
+#grid span.move {
+  background-color: #f00;
+}
+
+#grid span.circle {
+  border-radius: 50%;
+}

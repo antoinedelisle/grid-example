@@ -14,22 +14,8 @@ html, body {
   grid-template-rows: repeat(30, auto);
 }
 
-/*#grid .one {
-  grid-row: 1 / 31;
-  grid-column-start: 3;
-  grid-column-end: 5;
-
-  grid-row-start: 1;
-  grid-row-end: 5;
-
-  background-color: #ccc;
-}*/
 #grid span {
   background-color: #ccc;
-}
-
-#grid span.hide {
-  background-color: transparent;
 }
 
 #grid span.move {
